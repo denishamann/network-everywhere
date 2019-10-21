@@ -1,0 +1,31 @@
+{
+  "name": "network-everywhere",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run tslint && tsc",
+    "tslint": "tslint --project tsconfig.json --config tslint.json"
+  },
+  "keywords": [
+    "mac",
+    "mac-address",
+    "offline",
+    "ifconfig",
+    "ip"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "wmic": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.11.1",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.1.6"
+  }
+}

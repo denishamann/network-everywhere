@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+/bower_components/
+/node_modules/
+/doc/
+/.idea/
+dist/
+/coverage/
+.jsbeautifyrc
+.prettierrc
+.tmp
+.vscode
+*.iml
