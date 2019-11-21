@@ -1,6 +1,6 @@
 {
   "name": "network-everywhere",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,10 +22,10 @@
     "wmic": "^0.3.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.144",
-    "@types/node": "^12.11.1",
-    "tslint": "^5.11.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.11",
+    "tslint": "^5.20.1",
     "tslint-config-standard": "^8.0.1",
-    "typescript": "^3.1.6"
+    "typescript": "^3.7.2"
   }
 }
